@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Annotator Popup</title>
+  <style>
+    body {
+      width: 200px;
+    }
+    select, label {
+      width: 100%;
+      margin: 5px 0;
+    }
+    .note-category {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    <input type="checkbox" id="toggleHighlighter">
+    Enable Highlighter
+  </label>
+  <select id="highlightColor">
+    <option value="yellow">Yellow</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+  </select>
+  <button id="exportPDF">Export as PDF</button>
+  <button id="saveHighlights">Save Highlights and Notes</button>
+  <div id="notesContainer">
+    <div class="note-category" id="yellowNotes">
+      <h3>Yellow</h3>
+      <ul></ul>
+    </div>
+    <div class="note-category" id="redNotes">
+      <h3>Red</h3>
+      <ul></ul>
+    </div>
+    <div class="note-category" id="blueNotes">
+      <h3>Blue</h3>
+      <ul></ul>
+    </div>
+    <div class="note-category" id="greenNotes">
+      <h3>Green</h3>
+      <ul></ul>
+    </div>
+    <div id="noNotes">No notes are added</div>
+  </div>
+  <script src="libs/html2canvas.min.js"></script>
+  <script src="libs/jspdf.umd.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
