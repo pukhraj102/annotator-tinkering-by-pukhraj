@@ -116,7 +116,7 @@ style.innerHTML = `
 `;
 document.head.appendChild(style);
 
-// Add keyboard shortcut for enabling/disabling the highlighter
+// Add keyboard shortcut for enabling/disabling the highlighter. Currently it was set to alt+H. If it conflict with already exsisting shortcut of your browser change it here.
 document.addEventListener('keydown', (event) => {
   if (event.altKey && event.key === 'h') {
     isHighlighting = !isHighlighting;
