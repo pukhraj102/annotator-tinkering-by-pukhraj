@@ -6,6 +6,8 @@ to remove a highlighted text just double click it.
 everything is synced with chrome.storage and linked with url of current web page.
 for exporting it as pdf i have used jsPDF and html2canvas libraries.
 styling via css is left because of i dont think that thing will carry marks.
+i have learned everything on my own and did the complete implementation by myself, and maybe i have done the css part but it took to much time and i focused on different aspect so kindly look up to it.
+thanks.
 
 for any doubts
 contact: Pukhraj (22115124)
