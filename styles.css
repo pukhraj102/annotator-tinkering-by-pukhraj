@@ -2,3 +2,95 @@
     background-color: yellow;
   }
   
+  /* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 10px;
+  width: 250px; /* Adjusted width for better spacing */
+}
+
+/* Style the label and checkbox */
+label {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style the select dropdown */
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* Style the buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #5c6bc0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+/* Style the notes container */
+#notesContainer {
+  margin-top: 20px;
+}
+
+.note-category {
+  margin-bottom: 20px;
+}
+
+.note-category h3 {
+  padding: 5px;
+  background-color: #e0e0e0;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Specific note colors */
+#yellowNotes h3 {
+  background-color: #fff59d;
+}
+
+#redNotes h3 {
+  background-color: #ef9a9a;
+}
+
+#blueNotes h3 {
+  background-color: #90caf9;
+}
+
+#greenNotes h3 {
+  background-color: #a5d6a7;
+}
+
+/* Style for no notes message */
+#noNotes {
+  text-align: center;
+  padding: 10px;
+  color: #999;
+}
