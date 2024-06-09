@@ -10,4 +10,6 @@ i have learned everything on my own and did the complete implementation by mysel
 thanks.
 
 for any doubts
-contact: Pukhraj (22115124)
+contact: Pukhraj Choudhary (22115124)
+
+P.S. style.css is not added during the video but it was added later on a corresponding screenshot showing the working of extension along with updated css file is also added both to the drive and github.
