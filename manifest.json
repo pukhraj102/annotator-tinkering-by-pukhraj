@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Web Page Annotator",
+  "name": "Web Page Annotator (For Tinkering Lab)",
   "version": "1.0",
   "description": "Annotate web pages with highlights and notes, and export them as PDF.",
   "permissions": [
